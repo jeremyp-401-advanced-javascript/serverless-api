@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "b6e61d01-bf46-4e00-aa61-a48fa4019320",
+		"name": "Lambda Router",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DELETE /mug/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://ghpr8nzqbd.execute-api.us-west-2.amazonaws.com/mug/96a4da43-407c-4c25-99a3-b60e9492c5f0",
+					"protocol": "https",
+					"host": [
+						"ghpr8nzqbd",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mug",
+						"52fec04a-a6af-4849-a85d-ccf481ff73a0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /mug",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"capacity\": 650,\r\n  \"color\": [\"Slate Grey\", \"Blue\", \"Yellow\"],\r\n  \"droppable\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ghpr8nzqbd.execute-api.us-west-2.amazonaws.com/mug",
+					"protocol": "https",
+					"host": [
+						"ghpr8nzqbd",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mug"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT /mug/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"capacity\": 240,\r\n  \"color\": [\"Slate Grey\", \"Blue\", \"Yellow\"],\r\n  \"droppable\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ghpr8nzqbd.execute-api.us-west-2.amazonaws.com/mug/96a4da43-407c-4c25-99a3-b60e9492c5f0",
+					"protocol": "https",
+					"host": [
+						"ghpr8nzqbd",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mug",
+						"96a4da43-407c-4c25-99a3-b60e9492c5f0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /mug/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghpr8nzqbd.execute-api.us-west-2.amazonaws.com/mug/",
+					"protocol": "https",
+					"host": [
+						"ghpr8nzqbd",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mug",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /mug/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghpr8nzqbd.execute-api.us-west-2.amazonaws.com/mug/{id}",
+					"protocol": "https",
+					"host": [
+						"ghpr8nzqbd",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"mug",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
